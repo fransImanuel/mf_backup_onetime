@@ -33,14 +33,14 @@ func (r *TRTasklistRepository) BulkMongoExportOneTime() []string {
 	log.Debug("TRTasklistRepository - UpdateScheduleVisitFixGenerateRepo() - starting...")
 	// Define the date range
 	startOfMay := time.Date(2024, time.May, 1, 0, 0, 0, 0, time.UTC)
-	SecondOfMay := time.Date(2024, time.May, 2, 0, 0, 0, 0, time.UTC)
-	// endOfMay := time.Date(2024, time.June, 1, 0, 0, 0, 0, time.UTC)
+	// SecondOfMay := time.Date(2024, time.May, 2, 0, 0, 0, 0, time.UTC)
+	endOfMay := time.Date(2024, time.June, 1, 0, 0, 0, 0, time.UTC)
 
 	// Create the filter
 	filter := bson.M{
 		"ScheduleVisit": bson.M{
 			"$gte": startOfMay,
-			"$lt":  SecondOfMay,
+			"$lt":  endOfMay,
 		},
 	}
 
