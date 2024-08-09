@@ -35,7 +35,7 @@ func (controller *TRTasklistHandler) ExportPDFTasklistBulk() {
 	IDs := controller.TRTasklistService.BulkExportOneTimeService()
 	var wg sync.WaitGroup
 
-	errCh := make(chan error)
+	errCh := make(chan error, 1)
 	ctxG, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
