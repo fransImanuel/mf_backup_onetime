@@ -298,7 +298,11 @@ func (s *TRTasklistService) GenerateFilePDF(ctx context.Context, Data dto.Report
 				CurrentHeight = 30
 			}
 			pdf.SetXY(40, CurrentHeight)
-			pdf.Cell(&gopdf.Rect{W: 100, H: 20}, fmt.Sprintf(" %v", *Question.Answer.Answer.Value))
+			if Question.Answer.Answer.Value != nil {
+				pdf.Cell(&gopdf.Rect{W: 100, H: 20}, fmt.Sprintf(" %v", *Question.Answer.Answer.Value))
+			} else {
+				pdf.Cell(&gopdf.Rect{W: 100, H: 20}, fmt.Sprintf(" %v", ""))
+			}
 			CurrentHeight += 20
 		} else if Question.Question.TypeField == "camera" {
 			if CurrentHeight >= (MaxHeight - (60 + 200)) {
