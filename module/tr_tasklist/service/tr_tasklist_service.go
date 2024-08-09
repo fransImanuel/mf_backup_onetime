@@ -171,22 +171,22 @@ func (s *TRTasklistService) GenerateFilePDF(ctx context.Context, Data dto.Report
 	//pdf.ImageByHolder()
 
 	//err := pdf.AddTTFFont("loma", "LiberationSerif-Regular.ttf")
-	// err := pdf.AddTTFFontWithOption("loma", "assets/font/LiberationSerif-Regular.ttf", gopdf.TtfOption{Style: 0})
-	// if err != nil {
-	// 	log.Println(err.Error())
-	// 	// return nil, "", err
-	// }
-	// err = pdf.AddTTFFontWithOption("loma", "assets/font/LiberationSerif-Bold.ttf", gopdf.TtfOption{Style: 2})
-	// if err != nil {
-	// 	log.Println(err.Error())
-	// 	// return nil, "", err
-	// }
+	err := pdf.AddTTFFontWithOption("loma", "assets/font/LiberationSerif-Regular.ttf", gopdf.TtfOption{Style: 0})
+	if err != nil {
+		log.Println(err.Error())
+		// return nil, "", err
+	}
+	err = pdf.AddTTFFontWithOption("loma", "assets/font/LiberationSerif-Bold.ttf", gopdf.TtfOption{Style: 2})
+	if err != nil {
+		log.Println(err.Error())
+		// return nil, "", err
+	}
 
-	// err = pdf.SetFont("loma", "", FontSize)
-	// if err != nil {
-	// 	log.Println(err.Error())
-	// 	// return nil, "", err
-	// }
+	err = pdf.SetFont("loma", "", FontSize)
+	if err != nil {
+		log.Println(err.Error())
+		// return nil, "", err
+	}
 	pdf.SetFontSize(FontSize)
 	//var MaxWidth = 595
 

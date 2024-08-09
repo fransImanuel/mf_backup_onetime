@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "630f136683d3d804fdb7ffa0"
+  },
+  "TenantId": 0,
+  "DeletedByUserId": 0,
+  "DeletedTime": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "VisitId": 0,
+  "DestinationId": 17612,
+  "AssignedUserId": 3,
+  "QuestionSurveyId": {
+    "$oid": "5e424e4f1102f50a68a79804"
+  },
+  "ScheduleVisit": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "StatusId": 0,
+  "TasklistDetail": null,
+  "IsActive": false,
+  "IsDeleted": null,
+  "CreatedByUserName": "",
+  "CreatedTime": {
+    "$date": "2022-08-31T07:53:10.094Z"
+  },
+  "ModifiedByUserName": "",
+  "ModifiedTime": {
+    "$date": "2022-08-31T07:53:10.094Z"
+  },
+  "v": 0
+},{
+  "_id": {
+    "$oid": "630f13a683d3d804fdb7ffa1"
+  },
+  "TenantId": 0,
+  "DeletedByUserId": 0,
+  "DeletedTime": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "VisitId": 0,
+  "DestinationId": 17612,
+  "AssignedUserId": 3,
+  "QuestionSurveyId": {
+    "$oid": "5e424e4f1102f50a68a79804"
+  },
+  "ScheduleVisit": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "StatusId": 0,
+  "TasklistDetail": null,
+  "IsActive": false,
+  "IsDeleted": null,
+  "CreatedByUserName": "",
+  "CreatedTime": {
+    "$date": "2022-08-31T07:54:14.019Z"
+  },
+  "ModifiedByUserName": "",
+  "ModifiedTime": {
+    "$date": "2022-08-31T07:54:14.019Z"
+  },
+  "v": 0
+},{
+  "_id": {
+    "$oid": "630f13bd83d3d804fdb7ffa2"
+  },
+  "TenantId": 0,
+  "DeletedByUserId": 0,
+  "DeletedTime": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "VisitId": 0,
+  "DestinationId": 17612,
+  "AssignedUserId": 3,
+  "QuestionSurveyId": {
+    "$oid": "5e424e4f1102f50a68a79804"
+  },
+  "ScheduleVisit": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "StatusId": 0,
+  "TasklistDetail": null,
+  "IsActive": false,
+  "IsDeleted": null,
+  "CreatedByUserName": "",
+  "CreatedTime": {
+    "$date": "2022-08-31T07:54:37.022Z"
+  },
+  "ModifiedByUserName": "",
+  "ModifiedTime": {
+    "$date": "2022-08-31T07:54:37.022Z"
+  },
+  "v": 0
+},{
+  "_id": {
+    "$oid": "630f13cb833497c98ff9004e"
+  },
+  "TenantId": 0,
+  "DeletedByUserId": 0,
+  "DeletedTime": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "VisitId": 0,
+  "DestinationId": 17612,
+  "AssignedUserId": 3,
+  "QuestionSurveyId": {
+    "$oid": "5e424e4f1102f50a68a79804"
+  },
+  "ScheduleVisit": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "StatusId": 0,
+  "TasklistDetail": null,
+  "IsActive": false,
+  "IsDeleted": null,
+  "CreatedByUserName": "",
+  "CreatedTime": {
+    "$date": "2022-08-31T07:54:51.956Z"
+  },
+  "ModifiedByUserName": "",
+  "ModifiedTime": {
+    "$date": "2022-08-31T07:54:51.956Z"
+  },
+  "v": 0
+}]

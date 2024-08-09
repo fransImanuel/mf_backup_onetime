@@ -1,0 +1,549 @@
+[{
+  "_id": {
+    "$oid": "5e424e4f1102f50a68a79804"
+  },
+  "Code": "QS005",
+  "CreatedByUserName": "Generated",
+  "CreatedTime": {
+    "$date": "2019-12-25T02:47:01.531Z"
+  },
+  "DeletedByUserId": 0,
+  "DeletedTime": {
+    "$date": "2019-12-25T02:47:01.530Z"
+  },
+  "Information": "Question untuk Cleaning Service Rev 1.0",
+  "IsActive": true,
+  "IsDeleted": false,
+  "ModifiedByUserName": "Generated",
+  "ModifiedTime": {
+    "$date": "2019-12-31T08:18:34.015Z"
+  },
+  "Name": "Question Survey Kebersihan 01",
+  "Question": [
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d33780"
+      },
+      "TypeField": "radio-button",
+      "Label": "Foto dan Kondisi Kebersihan Mesin ATM Sebelum Dibersihkan ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Bersih",
+          "value": 1,
+          "action": "Property:TakePhoto:true",
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Kotor",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "positive"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d33781"
+      },
+      "TypeField": "radio-button",
+      "Label": "Foto dan Kondisi Kebersihan Ruangan ATM Sebelum Dibersihkan ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Bersih",
+          "value": 1,
+          "action": "Property:TakePhoto:true",
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Kotor",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "positive"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d33782"
+      },
+      "TypeField": "radio-button",
+      "Label": "Foto dan Kondisi Kebersihan Booth ATM Sebelum Dibersihkan ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Bersih",
+          "value": 1,
+          "action": "Property:TakePhoto:true",
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Kotor",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "positive"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d33783"
+      },
+      "TypeField": "radio-button",
+      "Label": "Foto dan Kondisi Kebersihan Bagian Belakang ATM Sebelum Dibersihkan ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Bersih",
+          "value": 1,
+          "action": "Property:TakePhoto:true",
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Kotor",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "positive"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d25385"
+      },
+      "TypeField": "camera",
+      "Label": "Foto kondisi Mesin ATM Sesudah Dibersihkan !",
+      "Item": []
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d25386"
+      },
+      "TypeField": "camera",
+      "Label": "Foto kondisi Ruangan ATM Sesudah Dibersihkan !",
+      "Item": []
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d25387"
+      },
+      "TypeField": "camera",
+      "Label": "Foto kondisi Booth ATM Sesudah Dibersihkan !",
+      "Item": []
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d25388"
+      },
+      "TypeField": "camera",
+      "Label": "Foto kondisi Kebersihan Bagian Belakang ATM Sesudah Dibersihkan !",
+      "Item": []
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d25392"
+      },
+      "TypeField": "radio-button",
+      "Label": "Kondisi Status Mesin ATM",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Online",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Out Of Service",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 3,
+          "key": "Blank/Mati",
+          "value": 3,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22789"
+      },
+      "TypeField": "radio-button",
+      "Label": "Cek Fascia Bagian Atas Mesin ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Baik",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Rusak",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 3,
+          "key": "Renggang",
+          "value": 3,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 4,
+          "key": "Tidak Terkunci",
+          "value": 4,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22790"
+      },
+      "TypeField": "radio-button",
+      "Label": "Cek Fascia Bagian Bawah Mesin ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Baik",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Rusak",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 3,
+          "key": "Renggang",
+          "value": 3,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 4,
+          "key": "Tidak Terkunci",
+          "value": 4,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22791"
+      },
+      "TypeField": "radio-button",
+      "Label": "Kondisi Booth ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Baik",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Bagian pintu/kunci rusak",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 3,
+          "key": "Bagian lain dari booth ada yang rusak",
+          "value": 3,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22792"
+      },
+      "TypeField": "radio-button",
+      "Label": "Kondisi Exhaust Fan (Posisi : Di bagian atas booth dekat bracket cctv (khusus booth cimb niaga)) ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Berfungsi/Berputar",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Tidak berfungsi/tidak berputar",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 3,
+          "key": "Tidak ada",
+          "value": 3,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22793"
+      },
+      "TypeField": "radio-button",
+      "Label": "Celah Antara Bagian Atas Mesin Dengan Booth (Menghindari Benda Jatuh) ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Tertutup dengan adanya adjuster",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Tidak tertutup adjuster sehingga ada celah",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 3,
+          "key": "key(Tertutup adjuster namun kondisi adjuster perlu di perbaiki",
+          "value": 3,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22794"
+      },
+      "TypeField": "radio-button",
+      "Label": "Apakah Mesin sudah menggunakan Sticker Kelengkapan versi 2019 dan semua berwarna merah ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Sudah",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Belum",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22795"
+      },
+      "TypeField": "radio-button",
+      "Label": "Jika sudah menggunakan sticker terbaru (versi 2019, tebal, dan Merah) apakah ada sticker yang kurang atau rusak ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Sticker Lengkap",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Sticker rusak/kurang",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 3,
+          "key": "Stiker Tidak ada",
+          "value": 3,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22796"
+      },
+      "TypeField": "radio-button",
+      "Label": "Apakah Meteran token sesuai ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Ya",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Tidak",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22798"
+      },
+      "TypeField": "radio-button",
+      "Label": "Suhu Ruangan ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Sejuk",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Panas",
+          "value": 2,
+          "action": null,
+          "condition": "positive"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22799"
+      },
+      "TypeField": "radio-button",
+      "Label": "Kondisi Air Conditioner (AC) ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Nyala",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Tidak Nyala",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22800"
+      },
+      "TypeField": "radio-button",
+      "Label": "Kondisi Air Conditioner (AC) apakah bocor ?",
+      "Item": [
+        {
+          "id": 2,
+          "key": "Tidak Bocor",
+          "value": 2,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 1,
+          "key": "Bocor",
+          "value": 1,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22801"
+      },
+      "TypeField": "radio-button",
+      "Label": "Kondisi Lampu Ruangan ?",
+      "Item": [
+        {
+          "id": 1,
+          "key": "Nyala",
+          "value": 1,
+          "action": null,
+          "condition": "positive"
+        },
+        {
+          "id": 2,
+          "key": "Kurang Terang",
+          "value": 2,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 3,
+          "key": "Tidak Nyala",
+          "value": 3,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        },
+        {
+          "id": 4,
+          "key": "Lampu Hilang",
+          "value": 4,
+          "action": "Property:TakePhoto:true",
+          "condition": "negative"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22797"
+      },
+      "TypeField": "textbox",
+      "Label": "Tuliskan Sisa Token listrik ?",
+      "Item": []
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22802"
+      },
+      "TypeField": "textbox",
+      "Label": "Keterangan Kondisi Rusak Secara Keseluruhan (ada brosur, sticker palsu, kamera, TV, plafon, lantai, dinding, booth, signage, sticker, lampu, AC, TV, kotor, kesejukan ruangan)",
+      "Item": []
+    },
+    {
+      "_id": {
+        "$oid": "5e0b045a4362cf29c8d22803"
+      },
+      "TypeField": "textbox",
+      "Label": "Informasi Keluhan Dari Orang Sekitar",
+      "Item": []
+    }
+  ],
+  "TenantId": 2
+}]
