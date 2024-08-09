@@ -136,8 +136,9 @@ func (controller *TRTasklistHandler) ExportPDFTasklistBulk() {
 	// ZIP PROGRESS
 
 	// Define the folder to zip and the output zip file
-	folderToZip := "storage"              // The folder you want to zip
-	outputZipFile := "MF_TASKLIST-05.zip" // The name of the output zip file
+	folderToZip := "storage" // The folder you want to zip
+	// outputZipFile := "MF_TASKLIST-05.zip" // The name of the output zip file
+	outputZipFile := "MF_TASKLIST-06.zip" // The name of the output zip file
 	err := ZipFolder(folderToZip, outputZipFile)
 	if err != nil {
 		fmt.Println("Error:", err)
