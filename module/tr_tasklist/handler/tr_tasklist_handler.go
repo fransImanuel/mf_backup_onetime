@@ -52,6 +52,11 @@ func (controller *TRTasklistHandler) ExportPDFTasklistBulk() {
 				return
 			default:
 				Base64, fname, errSrv := controller.TRTasklistService.ExportPDFTasklist(context.Background(), dto.GetTasklistByID{TasklistId: id})
+
+				fmt.Println("Base64: ", *Base64)
+				cancel() // Cancel all other goroutines
+				return
+
 				if errSrv.Message != "" {
 					errCh <- errors.New(errSrv.Message)
 					cancel() // Cancel all other goroutines
