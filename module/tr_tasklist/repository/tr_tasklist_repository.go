@@ -34,9 +34,9 @@ func (r *TRTasklistRepository) BulkMongoExportOneTime() []string {
 	// Define the date range
 	startOfMay := time.Date(2024, time.May, 1, 0, 0, 0, 0, time.UTC)
 	endOfMay := time.Date(2024, time.June, 1, 0, 0, 0, 0, time.UTC)
-	// startOfJune := time.Date(2024, time.May, 1, 0, 0, 0, 0, time.UTC)
+	// startOfJune := time.Date(2024, time.June, 1, 0, 0, 0, 0, time.UTC)
+	// endOfJune := time.Date(2024, time.July, 1, 0, 0, 0, 0, time.UTC)
 	// SecondOfMay := time.Date(2024, time.May, 2, 0, 0, 0, 0, time.UTC)
-	// endOfJuly := time.Date(2024, time.June, 1, 0, 0, 0, 0, time.UTC)
 
 	// Create the filter
 	filter := bson.M{
